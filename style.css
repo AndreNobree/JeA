@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #eae2d8;
+}
+.principal{
+    width: 100%;
+    text-align: center;
+}
+.cartao{
+    max-width: 200vh;
+    min-width: 100vh;
+}
+.limite{
+    min-width: 118vh;
+    margin: auto;
+}
+.img1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#folha1{
+    margin-top: 10vh;
+    width: 340px;
+    height: 440px;
+}
+#folha2{
+    margin-top: 10vh;
+    width: 340px;
+    height: 440px;
+}
+#logo1{
+    max-width: 150px;
+}
+#JeA{
+    margin-top: 15vh;
+    font-family: 'Tangerine', cursive;
+    font-size: 70px;
+    color: #bf6f4e;
+}
+.fotos{
+    width: 120vh;
+    height: 80vh;
+    border-radius: 10px;
+    background-color: #d5b6a2;
+    margin: auto;
+    margin-top: 15vh;
+    justify-content: center;
+    display: flex;
+}
+.cartao2{
+    width: 80%;
+    height: 424px;
+    background-color: #d5b6a2;
+    border-radius: 6px;   
+    text-align: center;
+}
+.d-block w-100{
+    margin-top: 10px;
+    width: 400px;
+}
+.seta{
+    cursor: pointer;
+    transition: .6s;
+}
+.seta:hover{
+    margin-left: 10px;
+}
